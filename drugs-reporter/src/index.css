@@ -3,6 +3,9 @@
     text-align: center;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 .row{
     width: 100vw;
@@ -10,12 +13,11 @@
 
 .poster{
     padding: 2rem;
-    width: 40rem;
+    width: 100%;
     height: 30rem;
 }
 
 .proj-name{
-    text-align: center;
     font-size: 4rem;
     color: black;
     margin: 0.75rem;
@@ -23,8 +25,8 @@
 
 .salogan{
     color: rgb(91, 91, 91);
-    text-align: center;
     font-size: 1rem;
+    margin-left: 1rem;
 }
 
 .homepagecontent{
@@ -32,4 +34,73 @@
     text-align: justify;
     padding: 1rem;
     font-size: 0.9rem;
+}
+
+.leftbtn{
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.about-page-heading{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.5rem;
+    font-style: oblique;
+    margin: 2.5rem;
+    letter-spacing: 4px;
+}
+
+.center{
+    margin: auto;
+}
+
+.about-page-salogan{
+    text-align: center;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.testemony{
+    padding: 2rem;
+    background-color: aliceblue;
+    margin: 1rem;
+}
+
+.testemony-img{
+    float: left;
+    height: 13rem;
+    width: 18rem;
+    margin-right: 1rem;
+}
+
+
+.line{
+    display: inline-block;
+    margin: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 3px;
+    border-radius: 13px;
+    width: 80%;
+    background-color: rgb(92, 91, 91);
+    
+}
+
+.testemony-2-img{
+    float: right;
+    height: 13rem;
+    width: 18rem;
+    margin-left: 1rem;
+}
+
+.testemony-text{
+    color: rgb(77, 75, 75);
+    margin: 1rem;
+}
+
+.testemony p{
+    text-align: right;
 }
