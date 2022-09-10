@@ -1,0 +1,35 @@
+.right{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+.row{
+    width: 100vw;
+}
+
+.poster{
+    padding: 2rem;
+    width: 40rem;
+    height: 30rem;
+}
+
+.proj-name{
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    margin: 0.75rem;
+}
+
+.salogan{
+    color: rgb(91, 91, 91);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.homepagecontent{
+    color: black;
+    text-align: justify;
+    padding: 1rem;
+    font-size: 0.9rem;
+}

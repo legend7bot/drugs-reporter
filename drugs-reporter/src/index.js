@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './index.scss';
+import './index.css';
 import {BrowserRouter} from "react-router-dom"; 
 
 const container = document.getElementById('root');
