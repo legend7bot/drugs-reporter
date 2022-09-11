@@ -24,7 +24,7 @@ function Signup() {
             <input type={"email"} name="email" placeholder="email" onChange={handleChange}></input><br></br>
             <input type={"password"} name="password" placeholder="password" onChange={handleChange}></input><br></br>
         </form>
-        <button className='btn btn-primary' onClick={()=>{console.log(data)}}>Login</button>
+        <button className='btn btn-primary' onClick={()=>{console.log(data)}}>signup</button>
     </>
   )
 }
