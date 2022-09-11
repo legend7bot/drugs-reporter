@@ -14,7 +14,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 import { NavLink } from 'react-router-dom';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 
-const pages = ['About', 'File Report', 'Join us'];
+const pages = ['About', 'File Report', 'Signup'];
 const settings = ['Profile', 'Account', 'Reports Dashboard', 'Logout'];
 
 const Navbar = () => {
@@ -35,7 +35,7 @@ const Navbar = () => {
 
     return (
         <AppBar position="static" >
-            <Container maxWidth="xl" sx={{backgroundColor:"red"}}>
+            <Container maxWidth="xl" sx={{backgroundColor:"#0a125d"}}>
                 <Toolbar disableGutters>
                     <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
                     <Typography

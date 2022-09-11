@@ -13,7 +13,7 @@ function FileReport() {
     description:""
   });
   return (
-    <div style={{backgroundColor:"rgba(400, 222, 222, 0.795)"}}>
+    <div style={{backgroundColor:"#d8eff3cb"}}>
         <Navbar />
         <Report data={data} setData={setData} />
         <Footer />

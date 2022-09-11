@@ -80,7 +80,9 @@ body{
 
 .testemony{
     padding: 2rem;
-    background-color: aliceblue;
+    background-color: rgba(240, 238, 238, 0.58);
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px  rgb(86, 86, 86);
     margin: 1rem;
 }
 
@@ -89,6 +91,7 @@ body{
     height: 13rem;
     width: 18rem;
     margin-right: 1rem;
+    box-shadow: 4px 4px 10px  rgb(86, 86, 86);
 }
 
 
@@ -109,6 +112,7 @@ body{
     height: 13rem;
     width: 18rem;
     margin-left: 1rem;
+    box-shadow: -4px 4px 10px  rgb(86, 86, 86);
 }
 
 .testemony-text{

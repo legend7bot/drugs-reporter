@@ -30,8 +30,8 @@ function HomeBody() {
                     <Button variant="contained" color="error"> <ReportProblemIcon sx={{margin:"0.5rem"}}/> File Report</Button>
                 </NavLink>
             </span>
-            <NavLink to="/Awareness%20Programs">
-                <Button variant="outlined" color="success" > <SosRoundedIcon sx={{margin:"0.5rem"}}/> Reach for help</Button>
+            <NavLink to="/signup">
+                <Button variant="outlined" color="success" > <SosRoundedIcon sx={{margin:"0.5rem"}}/>Help Out</Button>
             </NavLink>
             
 

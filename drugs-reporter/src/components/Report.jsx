@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom';
-
+import ReportIcon from '@mui/icons-material/Report';
 function Report(props) {
     const [anonymous, setAnonymous] = useState(false);
     function handleChange(event){
@@ -19,44 +19,44 @@ function Report(props) {
 
     return (
         <>
-            <h1 className='reportHeading'>REPORT</h1>
+            <h1 className='reportHeading'><ReportIcon sx={{fontSize:"4rem",marginBottom:"10px"}}/>REPORT</h1>
             <form className="row g-3 reportpage">
                 <div className="col-md-6">
-                    <label for="inputEmail4" className="form-label">Name</label>
+                    <label htmlFor="inputEmail4" className="form-label">Name</label>
                     {!anonymous?<input onChange={handleChange} name="name" type="text" className="form-control" id="inputEmail4" placeholder='your name' />:<input type="text" disabled className="form-control" id="inputEmail4" placeholder='Anonymous' value={""} />}
                 </div>
                 <div className="col-md-6">
-                    <label for="inputPassword4" className="form-label">Email</label>
+                    <label htmlFor="inputPassword4" className="form-label">Email</label>
                     {!anonymous?<input onChange={handleChange} name="email" type="Email" className="form-control" id="inputPassword4" placeholder='your email'/>:<input type="text" disabled className="form-control" id="inputPassword4" placeholder="Anonymous" value={""} />}
                 </div>
                 <div className="col-12">
-                    <label for="inputAddress" className="form-label">Location</label>
+                    <label htmlFor="inputAddress" className="form-label">Location</label>
                     <input onChange={handleChange} type="text" name="location" className="form-control" id="inputAddress" placeholder="1234 Main St" />
                 </div>
                 <div className="col-md-4">
-                    <label for="inputState" className="form-label">Type</label>
+                    <label htmlFor="inputState" className="form-label">Type</label>
                     <select onChange={handleChange} id="inputState" name="type" className="form-select" placeholder='What did u see'>
                         <option>Consumption</option>
                         <option>Selling</option>
                     </select>
                 </div>
                 <div className="col-md-6">
-                    <label for="inputZip" className="form-label">Time</label>
+                    <label htmlFor="inputZip" className="form-label">Time</label>
                     <input name="sightingTime" onChange={handleChange} type="text" className="form-control" id="inputZip" placeholder='dd/mm/yy' />
                 </div>
                 <div className="col-md-2">
-                    <label for="inputZip" className="form-label">PIN</label>
+                    <label htmlFor="inputZip" className="form-label">PIN</label>
                     <input name="pincode" onChange={handleChange} type="text" className="form-control" id="inputZip" placeholder='1100XX' />
                 </div>
                 <div className="col-md-12">
-                    <label for="inputZip" className="form-label">Description</label>
+                    <label htmlFor="inputZip" className="form-label">Description</label>
                     <textarea onChange={handleChange} name="description" className='form-control' placeholder='Description of the sighting..' rows={4} />
                 </div>
 
                 <div className="col-12">
                     <div className="form-check">
                         <input onChange={handleChange} className="form-check-input" type="checkbox" onClick={anonymously} id="gridCheck" />
-                        <label className="form-check-label" for="gridCheck">
+                        <label className="form-check-label" htmlFor="gridCheck">
                             Send Anonymously
                         </label>
                     </div>
