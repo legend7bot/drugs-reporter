@@ -36,8 +36,8 @@ function Report(props) {
                 <div className="col-md-4">
                     <label htmlFor="inputState" className="form-label">Type</label>
                     <select onChange={handleChange} id="inputState" name="type" className="form-select" placeholder='What did u see'>
-                        <option>Consumption</option>
-                        <option>Selling</option>
+                        <option value="Consumption" >Consumption</option>
+                        <option value="Trading" >Trading</option>
                     </select>
                 </div>
                 <div className="col-md-6">
