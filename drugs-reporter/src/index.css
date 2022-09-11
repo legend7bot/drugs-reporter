@@ -29,6 +29,7 @@ body{
     margin-left: 1rem;
 }
 
+
 .homepagecontent{
     color: black;
     text-align: justify;
@@ -61,6 +62,20 @@ body{
     font-size: 1.75rem;
     letter-spacing: 2px;
     font-weight: 100;
+}
+
+.reportpage{
+    border: 2px solid rgb(113, 111, 111);
+    border-radius: 12px;
+    margin: 2rem 20%;
+    padding: 4rem;
+    width: 60%;
+    background-color: rgba(255, 253, 253, 0.705);
+}
+.reportHeading{
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
 }
 
 .testemony{
