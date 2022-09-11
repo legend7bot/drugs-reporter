@@ -128,7 +128,7 @@ const Navbar = () => {
                     
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Login">
-                            <NavLink to="/login">
+                            <NavLink to="/Dashboard">
                             <IconButton sx={{ p: 0 }}>
                                 <PersonOutlineIcon sx={{fontSize:40,color:'white'}}/>
                             </IconButton>
