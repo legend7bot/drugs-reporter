@@ -12,6 +12,7 @@ const reportSchema = new mongoose.Schema(
     description: { type: String, required: true },
     isPublic: { type: Boolean, default: false },
     isResolved: { type: Boolean, default: false },
+    note: { type: String, default: '' },
   },
   { timestamps: true }
 );
